@@ -8,7 +8,7 @@ interface Users {
 
 const UsersPage = async () => {
     const res = await fetch("https://jsonplaceholder.typicode.com/users");
-    /* to cache data we ned to pass a second parameter (object)
+    /* to cache data we need to pass a second parameter (object)
         e.g { cache: 'on-store'} to prevent next from storing your data. this is used where data keep changing
            or { next: { revalidate: 10 } } getting fresh data every 10 sec
 
