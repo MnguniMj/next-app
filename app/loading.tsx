@@ -1,7 +1,7 @@
 import React from "react";
 
 const loading = () => {
-  return <div>Loading all...</div>;
+  return <span className="loading loading-ring loading-md"></span>;
 };
 
 export default loading;
