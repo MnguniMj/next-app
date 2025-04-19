@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import Products from './components/Products'
+import Image from "next/image";
+import Link from "next/link";
+import Products from "./components/Products";
 
 export default function Home() {
   return (
@@ -9,5 +9,5 @@ export default function Home() {
       <Link href="/users">Users</Link>
       <Products />
     </main>
-  )
+  );
 }
